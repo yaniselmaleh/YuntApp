@@ -1,9 +1,9 @@
-import Header from '../componentsOLD/Header';
+import Links from '../components/Link';
 
 export default function Index() {
   return (
     <div>
-      <Header />
+      <Links />
       <p>Hello </p>
     </div>
   );

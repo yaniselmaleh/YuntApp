@@ -1,9 +1,9 @@
-import Header from '../componentsOLD/Header';
+import Links from '../components/Link';
 
 export default function About() {
     return (
       <div>
-            <Header />
+            <Links />
             <p>This is the about page</p>
       </div>
     );
