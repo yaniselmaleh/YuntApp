@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,19 @@
   },
   "homepage": "https://github.com/yaniselmaleh/YuntApp#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "google-map-react": "^1.1.4",
+    "google-maps-react": "^2.0.2",
     "next": "^8.1.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-canvas-draw": "^1.0.2",
+    "react-device-detect": "^1.6.2",
+    "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
+    "react-id-swiper": "^2.1.2",
+    "react-scripts": "^3.0.1",
+    "styled-components": "^4.3.2",
+    "swiper": "^4.5.0"
   }
 }
