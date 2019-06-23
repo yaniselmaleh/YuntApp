@@ -1,0 +1,113 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+div {
+    width: 100%;
+    // margin: auto;
+    // display: block;
+    // height: 100vh;
+    // background-color: red;
+
+    .center {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .marge-left {
+        padding-left: 5%;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        box-sizing: border-box;
+
+        // Timmer
+        #timmer {
+            background-color: blue;
+            height: 5vh;
+            @extend .marge-left;
+
+            img {
+                width: 5%;
+                height: 5vh;
+                padding-right: 3%;
+                display: inline-block !important;
+            }
+
+            p {
+                line-height: 1vh;
+                height: 2.5vh;
+                // background-color: white;
+                font-size: 20px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                letter-spacing: normal;
+                display: inline-block;
+            }
+        }
+
+        // Image
+        :nth-child(2) {
+            // background-color: purple;
+            height: 40vh;
+            @extend .center;
+
+            img {
+                width: 30vh;
+                height: auto;
+                margin: auto;
+                padding-left: 12%;
+            }
+        }
+
+        // Content
+        :nth-child(3) {
+            // background-color: gold;
+            height: 25vh;
+            @extend .center;
+
+            p {
+                width: 75%;
+                margin: auto;
+                font-size: 20px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #000000;
+                display: inline-block;
+                padding-bottom: 2vh;
+
+                b {
+                    font-family: Labeur_Bold;
+                    font-weight: $bold;
+                    padding-left: 0%;
+                    background-color: initial;
+                }
+            }
+        }
+
+        // Cta
+        :nth-child(4) {
+            // background-color: pink;
+            height: 25vh;
+            @extend .center;
+
+            a {
+                height: initial;
+            }
+        }
+
+        // Progress bar
+        :nth-child(5) {
+            background-color: blue;
+            height: 5vh;
+            @extend .marge-left;
+        }
+    }
+}

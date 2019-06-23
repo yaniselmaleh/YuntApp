@@ -1,0 +1,49 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+.btn-unfilled {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 3vh;
+    width: 80%;
+    padding: 4%;
+    opacity: 1;
+    margin: auto;
+    text-align: center;
+    display: block;
+    color: white;
+    font-family: Labeur_Bold;
+    font-weight: $bold;
+    border: 1px solid $border;
+    background: rgb(220, 103, 149);
+    background: linear-gradient(90deg, rgba(220, 103, 149, 1) 35%, rgba(231, 107, 97, 1) 100%);
+    box-shadow: 0 10px 20px 0 rgba(220, 103, 149, 0.35);
+    background-image: linear-gradient(to right, #e76b61, #dc6795);
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+} 
+
+.btn-filled{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 3vh;
+    width: 80%;
+    padding: 4%;
+    opacity: 1;
+    margin: auto;
+    text-align: center;
+    display: block;
+    color: black;
+    font-family: Labeur_Bold;
+    font-weight: $bold;
+    border: 1px solid $border;
+    background-color: white;
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+}
