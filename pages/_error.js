@@ -1,22 +1,22 @@
+import React from "react";
+
 class Error extends React.Component {
   static getInitialProps({ res, err }) {
-    const statusCode = res ? res.statusCode : err ? err.statusCode : null
-    return { statusCode }
+    const statusCode = res ? res.statusCode : err ? err.statusCode : null;
+    return { statusCode };
   }
 
   render() {
     return (
       <section className="error404">
         <p>
-          {
-            this.props.statusCode
+          {this.props.statusCode
             ? `Erreur ${this.props.statusCode}`
-            : 'An error occurred on client'
-          }
+            : "An error occurred on client"}
         </p>
       </section>
-    )
+    );
   }
 }
 
-export default Error
+export default Error;
