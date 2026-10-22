@@ -1,4 +1,4 @@
-import Links from '../components/Link';
+import Links from '../components/link';
 
 export default function About() {
     return (
